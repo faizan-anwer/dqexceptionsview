@@ -1,0 +1,17 @@
+<people>
+    <person>
+        <name>Alex</name>
+        <country>Canada</country>
+        <age>20</age>
+    </person>
+    <person>
+        <name>Mike</name>
+        <country>Canada</country>
+        <age>25</age>
+    </person>
+    <person>
+        <name>Liuos</name>
+        <country>Canada</country>
+        <age>24</age>
+    </person>
+</people>

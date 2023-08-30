@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        #files > div {
+            cursor: pointer;
+            color: blue;
+        }
+        #csvTable{
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, <%= username %>!</h1>
+        <% if (role === 'user') { %>
+            <h1>Exception Viewer - <%= role %></h1>
+            <div id="folders"></div>
+            <p>&nbsp;</p>
+            <div id="files"></div>
+            <p>&nbsp;</p>
+            <div id="fileContent"></div>
+            <p>&nbsp;</p>
+            <a href="/logout">Logout</a>
+            <% } %>
+    <script src="script.js"></script>
+</body>
+</html>
